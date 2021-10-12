@@ -56,7 +56,9 @@ Modules imported:
 
 
 Functions:
-	User defined functions:
+
+User defined functions:
+
 	encrypt(num): this function is used to encrpt a pin entered as parameter
 	decrypt(word): this function is used to decrypt the pin from encrypted format so that the customer can view and change.
 	gen_credit(): this function is used to auto-generate credit card number in such a way that a number is not repeated four times together as well as ensures that no duplicate credit card number is generated.
@@ -74,7 +76,8 @@ Functions:
 	customer_pg(): this function called if entered credentials is matched, and redirected to customer interface, where the customer can choose desired function from the displayed menu.
 
 
-	Built-in functions:
+Built-in functions:
+
 	int(<data>): this function is used to convert datatype to integer.
 	list(<data>): this function is used to convert datatype to list.
 	str(<data>): this function is used to convert datatype to string.
